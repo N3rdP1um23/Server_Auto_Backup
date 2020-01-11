@@ -12,7 +12,7 @@
 #!/bin/bash
 
 ## Get the number of streams for Plex & chack if there is a running backup
-STREAM_COUNT=`/usr/bin/custom/CurrentPlexStreams.sh`
+STREAM_COUNT=`./CurrentPlexStreams.sh`
 BACKUP_STATUS=`ps -ef | grep "rclone --transfer*" | grep -v grep | head -1 | awk '{print $2}'`
 
 ## Check if there are no plex streams & no current backup
