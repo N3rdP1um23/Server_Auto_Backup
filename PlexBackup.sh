@@ -1,3 +1,5 @@
+#!/bin/bash
+
 ###
 #
 # N3rdP1um23
@@ -8,8 +10,6 @@
 # 2. If a Plex stream is detected, the backup background task is killed
 #
 ###
-
-#!/bin/bash
 
 ## Get the number of streams for Plex & chack if there is a running backup
 STREAM_COUNT=`./CurrentPlexStreams.sh`
