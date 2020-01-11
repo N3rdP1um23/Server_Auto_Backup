@@ -1,5 +1,5 @@
 # Server_Auto_Backup
-Allows for rclone to run in the background and backup files while no current Plex streams are active.
+Allows for rclone to run in the background and backup files while no current Plex streams are active.  If a stream is detected, the backup is killed freeing up resources (RAM, CPU, and Bandwidth) for watching content!
 
 ## Steps
 1. Clone or download repository to your desired computer/server
